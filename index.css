@@ -1,0 +1,34 @@
+.one{
+    display: flex;
+    justify-content: end;
+}
+.head{
+    padding: 10px;
+    background-color: lightslategray;
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap:20px ;
+}
+#one{
+    border-right: 5px solid palevioletred;
+}
+#two{
+    border-right: 5px solid palevioletred;
+}
+.border{
+    background-color: black ;
+    color: white;
+    padding: 10px;
+    
+}
